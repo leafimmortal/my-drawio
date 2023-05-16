@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T00:57:01.617Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="LeAp4nUFGTCdrU0WjsQt" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T00:59:41.798Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="MsUwro-JINbgNca6jGWb" version="21.2.3" type="github">
   <diagram id="C7Hq2Tx7OUljtUa5G8hF" name="第 1 页">
     <mxGraphModel dx="1247" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,17 +32,11 @@
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-8" value="用户中心是否&lt;br&gt;有此用户（openid和手机号判断）" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="190" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0mKo4bdOrpRTRqKdyPcH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-11" target="0mKo4bdOrpRTRqKdyPcH-14">
+        <mxCell id="0mKo4bdOrpRTRqKdyPcH-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-11" target="0mKo4bdOrpRTRqKdyPcH-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-11" value="登录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0mKo4bdOrpRTRqKdyPcH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-14" target="0mKo4bdOrpRTRqKdyPcH-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0mKo4bdOrpRTRqKdyPcH-14" value="返回token给票夹系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-16" target="0mKo4bdOrpRTRqKdyPcH-11">
           <mxGeometry relative="1" as="geometry" />
