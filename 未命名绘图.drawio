@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T00:59:41.798Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="MsUwro-JINbgNca6jGWb" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T01:06:04.770Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="J4vm6v6y-QDPV1MxHDOf" version="21.2.3" type="github">
   <diagram id="C7Hq2Tx7OUljtUa5G8hF" name="第 1 页">
     <mxGraphModel dx="1247" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-4" target="0mKo4bdOrpRTRqKdyPcH-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0mKo4bdOrpRTRqKdyPcH-4" value="微信票夹系统小程序登录获取openid和session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0mKo4bdOrpRTRqKdyPcH-4" value="微信票夹系统小程序登录，获取openid和session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-8" target="0mKo4bdOrpRTRqKdyPcH-11">
@@ -65,10 +65,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-26" value="将微信与用户中心信息进行绑定（用户信息在数据库绑定，token在redis绑定）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="364" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-29" value="微信小程序&lt;br&gt;消息提醒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="364" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-62" target="0mKo4bdOrpRTRqKdyPcH-64">
           <mxGeometry relative="1" as="geometry" />
@@ -90,6 +90,12 @@
         </mxCell>
         <mxCell id="0mKo4bdOrpRTRqKdyPcH-68" value="微信登录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0mKo4bdOrpRTRqKdyPcH-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.431;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0mKo4bdOrpRTRqKdyPcH-73" target="0mKo4bdOrpRTRqKdyPcH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0mKo4bdOrpRTRqKdyPcH-73" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="130" width="15" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
