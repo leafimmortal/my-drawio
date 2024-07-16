@@ -1,9 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T01:09:48.721Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 SE 2.X MetaSr 1.0" version="24.6.4" etag="UYOkOiBOyKgAvxUD-eZW" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T01:27:08.899Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 SE 2.X MetaSr 1.0" etag="gsaMRZFiPlVyRVrRdRQ0" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ueAJS5mP7FaN1MOuHvFC">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-1" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-1" target="4DzzyMRUXaFFxC4SUeA8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="510" as="sourcePoint" />
+            <mxPoint x="594" y="310" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-8" value="查询历史日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4DzzyMRUXaFFxC4SUeA8-4">
+          <mxGeometry x="0.1144" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-5" value="CK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-1" target="4DzzyMRUXaFFxC4SUeA8-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="510" as="sourcePoint" />
+            <mxPoint x="674" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-9" value="通过websocket查询&lt;br&gt;实时日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4DzzyMRUXaFFxC4SUeA8-6">
+          <mxGeometry x="0.0237" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-10" value="业务方日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-10" target="4DzzyMRUXaFFxC4SUeA8-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="510" as="sourcePoint" />
+            <mxPoint x="234" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-12" value="filebeat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-13" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-12" target="4DzzyMRUXaFFxC4SUeA8-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="510" as="sourcePoint" />
+            <mxPoint x="374" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-17" value="数据库日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-19" value="apisix网关日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-19" target="4DzzyMRUXaFFxC4SUeA8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="510" as="sourcePoint" />
+            <mxPoint x="444" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-17" target="4DzzyMRUXaFFxC4SUeA8-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="510" as="sourcePoint" />
+            <mxPoint x="444" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-25" value="使用netty+websocket，&lt;div&gt;低延时打印实时日志&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564" y="510" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-26" value="使用CK作为存储数据库，&lt;div&gt;在保证查询性能的同时，&lt;/div&gt;&lt;div&gt;极大节约了磁盘空间&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="40" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-32" value="vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-13" target="4DzzyMRUXaFFxC4SUeA8-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="410" as="sourcePoint" />
+            <mxPoint x="520" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzzyMRUXaFFxC4SUeA8-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4DzzyMRUXaFFxC4SUeA8-32" target="4DzzyMRUXaFFxC4SUeA8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
