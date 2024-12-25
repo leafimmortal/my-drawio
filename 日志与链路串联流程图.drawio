@@ -7,8 +7,8 @@
         <mxCell id="ORX7oJTABNwnEh1Alo0J-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORX7oJTABNwnEh1Alo0J-1" target="ORX7oJTABNwnEh1Alo0J-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORX7oJTABNwnEh1Alo0J-1" value="用户请求&lt;div&gt;或&lt;/div&gt;&lt;div&gt;定时任务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="150" width="150" height="100" as="geometry" />
+        <mxCell id="ORX7oJTABNwnEh1Alo0J-1" value="用户请求&lt;div&gt;或&lt;/div&gt;&lt;div&gt;定时任务（手工生成链路ID）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="150" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ORX7oJTABNwnEh1Alo0J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORX7oJTABNwnEh1Alo0J-2" target="ORX7oJTABNwnEh1Alo0J-3">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ORX7oJTABNwnEh1Alo0J-8" value="apisix" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="85" width="230" height="230" as="geometry" />
+          <mxGeometry x="210" y="85" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="ORX7oJTABNwnEh1Alo0J-9" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;request-id插件&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;生成临时链路ID&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ORX7oJTABNwnEh1Alo0J-8">
           <mxGeometry x="20" y="35" width="190" height="55" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ORX7oJTABNwnEh1Alo0J-20" value="java日志打印" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="141.25" width="150" height="117.5" as="geometry" />
+          <mxGeometry x="740" y="141.25" width="150" height="117.5" as="geometry" />
         </mxCell>
         <mxCell id="ORX7oJTABNwnEh1Alo0J-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORX7oJTABNwnEh1Alo0J-23" target="ORX7oJTABNwnEh1Alo0J-24">
           <mxGeometry relative="1" as="geometry" />
