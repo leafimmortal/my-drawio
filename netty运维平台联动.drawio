@@ -4,8 +4,69 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pUzHm3-symrYcmANud-8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdRMPL_QHqJqCxDdCrV--1" target="pUzHm3-symrYcmANud-8-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="310" />
+              <mxPoint x="430" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mdRMPL_QHqJqCxDdCrV--1" value="研发平台" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="210" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUzHm3-symrYcmANud-8-1" target="pUzHm3-symrYcmANud-8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-12" value="发送要升级的客户端版本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pUzHm3-symrYcmANud-8-4">
+          <mxGeometry x="-0.0625" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-1" value="netty服务端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="202.5" width="270" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUzHm3-symrYcmANud-8-3" target="pUzHm3-symrYcmANud-8-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="500" />
+              <mxPoint x="460" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-14" value="1.发送请求升级到对应版本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pUzHm3-symrYcmANud-8-6">
+          <mxGeometry x="0.4138" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-3" value="netty客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="467.5" width="270" height="362.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-5" value="线下运维平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="467.5" width="270" height="362.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.186;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.015;entryY=0.165;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pUzHm3-symrYcmANud-8-1" target="mdRMPL_QHqJqCxDdCrV--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-8" value="1.查询netty客户端版本信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="218" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-10" value="2.返回netty客户端版本信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="278" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.007;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="pUzHm3-symrYcmANud-8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="614" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUzHm3-symrYcmANud-8-16" value="2.返回结果&lt;br&gt;①如果要升级的版本大于当前版本&lt;br&gt;则升级后返回结果&lt;div&gt;②如果要升级的版本小于或等于当前版本&lt;br&gt;则直接返回当前版本&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pUzHm3-symrYcmANud-8-15">
+          <mxGeometry x="0.3953" y="4" relative="1" as="geometry">
+            <mxPoint x="31" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
